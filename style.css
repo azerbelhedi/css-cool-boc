@@ -1,0 +1,71 @@
+.container{
+    display: flex ;
+    flex-wrap: wrap ;
+}
+
+.box-container{
+    background-image: radial-gradient(#216583 , #156b91) ;
+    box-shadow: 1px 1px 5px#293462 ;
+    height : 150px ;
+    width : 250px ;
+    margin : 25px ;
+    border-radius: 0px 0px 0px 20px ;
+}
+
+.box{
+    padding : 15px ;
+    height : 120px ;
+    width : 225px ;
+    background-color : #216583 ;
+    background-image: linear-gradient(90deg , #216583 , #294f5f) ;
+    position: relative ;
+    top : -29px ;
+    transition: 1s ;
+    border-radius: 35px 0px 0px 0px ;
+    box-shadow: 1px 5px 15px#293462 ;
+}
+
+.box p{
+    font-family: cursive ;
+    font-weight: bolder ;
+    color : #fff1c1 ;
+}
+
+.box-container:hover > .box{ 
+    transform-origin : 100% 0% ;
+    transform: rotateZ(-10deg) ; 
+    transition: 1s ;
+}
+
+.box-container:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button{
+    background-image: linear-gradient(45deg , #3d7b96 , #1c81ac) ;
+    box-shadow: 1px 1px 5px#293462 ;
+    border : none ;
+    color : #f76262 ;
+    font-weight: bolder ;
+    font-family: cursive ;
+    margin-top : 5px ;
+    margin-left : 5px ;
+    border-radius: 15px ;
+}
+
+body{
+    background-image: linear-gradient(45deg , #293462 , #216583) ;
+    height : 100vh ;
+}
+
+
+
+button::-moz-focus-inner {
+    border: 0;
+  }
+  
+  
